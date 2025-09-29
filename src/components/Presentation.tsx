@@ -28,13 +28,13 @@ import {
 interface Slide {
   id: number;
   type:
-  | "title"
-  | "feature"
-  | "social"
-  | "cta"
-  | "screenshot"
-  | "welcome"
-  | "feature-no-screenshot";
+    | "title"
+    | "feature"
+    | "social"
+    | "cta"
+    | "screenshot"
+    | "welcome"
+    | "feature-no-screenshot";
   title: string;
   subtitle?: string;
   description?: string;
@@ -51,7 +51,7 @@ const slides: Slide[] = [
     subtitle: "Students!",
     description:
       "Your journey to academic excellence starts here. Specially designed study tools and resources to help you master every subject and excel in your exams.",
-    icon: <GraduationCap className="w-12 h-12 md:w-16 md:h-16" />,
+    icon: <GraduationCap className="w-16 h-16" />,
     gradient: "from-emerald-500 to-teal-600",
   },
   {
@@ -67,7 +67,7 @@ const slides: Slide[] = [
     title: "Notes",
     description:
       "Browse comprehensive library of notes across all subjects, organized by chapter for easy access.",
-    icon: <BookOpen className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <BookOpen className="w-12 h-12" />,
     gradient: "from-green-500 to-emerald-600",
     imageUrl:
       "https://i.postimg.cc/2jvLH56Q/Screenshot-2025-09-29-151423.png",
@@ -78,7 +78,7 @@ const slides: Slide[] = [
     title: "AI Help",
     description:
       "Get instant answers and explanations for your questions 24/7, powered by cutting-edge AI.",
-    icon: <Bot className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <Bot className="w-12 h-12" />,
     gradient: "from-purple-500 to-pink-600",
     imageUrl:
       "https://i.postimg.cc/YqHGTwLB/Screenshot-2025-09-29-151628.png",
@@ -89,7 +89,7 @@ const slides: Slide[] = [
     title: "MCQs",
     description:
       "Practice multiple-choice questions to build accuracy and confidence for exams with instant feedback.",
-    icon: <CheckSquare className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <CheckSquare className="w-12 h-12" />,
     gradient: "from-orange-500 to-red-600",
     imageUrl:
       "https://i.postimg.cc/pXHh3th7/Screenshot-2025-09-29-151712.png",
@@ -100,7 +100,7 @@ const slides: Slide[] = [
     title: "Daily Quiz",
     description:
       "Sharpen your mind daily with interactive puzzles and quizzes to test your knowledge.",
-    icon: <Calendar className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <Calendar className="w-12 h-12" />,
     gradient: "from-blue-500 to-cyan-600",
     imageUrl:
       "https://i.postimg.cc/xT2JBSJZ/Screenshot-2025-09-29-151746.png",
@@ -111,7 +111,7 @@ const slides: Slide[] = [
     title: "Leaderboard",
     description:
       "Compete with peers and track your progress. Stay motivated by climbing the ranks!",
-    icon: <Trophy className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <Trophy className="w-12 h-12" />,
     gradient: "from-yellow-500 to-orange-600",
     imageUrl:
       "https://i.postimg.cc/9FhRsjRK/Screenshot-2025-09-29-151825.png",
@@ -122,7 +122,7 @@ const slides: Slide[] = [
     title: "Mind Maps",
     description:
       "Visualize complex topics with intuitive mind maps for better retention and revision.",
-    icon: <Brain className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <Brain className="w-12 h-12" />,
     gradient: "from-indigo-500 to-purple-600",
     imageUrl:
       "https://i.postimg.cc/02sMhqKq/Screenshot-2025-09-29-152308.png",
@@ -133,7 +133,7 @@ const slides: Slide[] = [
     title: "YouTube Learning",
     description:
       "Access hand-picked educational videos from the best creators to supplement your learning.",
-    icon: <Play className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <Play className="w-12 h-12" />,
     gradient: "from-red-500 to-pink-600",
     imageUrl:
       "https://i.postimg.cc/dtYkgKZ0/Screenshot-2025-09-29-152533.png",
@@ -144,7 +144,7 @@ const slides: Slide[] = [
     title: "Notices",
     description:
       "Stay updated with important announcements, events, and academic reminders all in one place.",
-    icon: <Bell className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <Bell className="w-12 h-12" />,
     gradient: "from-teal-500 to-green-600",
     imageUrl:
       "https://i.postimg.cc/15QnbZVX/Screenshot-2025-09-29-152619.png",
@@ -155,7 +155,7 @@ const slides: Slide[] = [
     title: "Current Affairs",
     description:
       "Keep up-to-date with the latest news and events, essential for general knowledge and exams.",
-    icon: <Newspaper className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <Newspaper className="w-12 h-12" />,
     gradient: "from-slate-600 to-gray-700",
   },
   {
@@ -164,7 +164,7 @@ const slides: Slide[] = [
     title: "Reasoning",
     description:
       "Enhance your logical and analytical skills with our dedicated reasoning practice section.",
-    icon: <Zap className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <Zap className="w-12 h-12" />,
     gradient: "from-violet-500 to-purple-600",
   },
   {
@@ -173,7 +173,7 @@ const slides: Slide[] = [
     title: "Doubt Box",
     description:
       "Ask your questions directly to our mentors and get reliable, expert answers to clear doubts.",
-    icon: <MessageSquare className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <MessageSquare className="w-12 h-12" />,
     gradient: "from-cyan-500 to-blue-600",
     imageUrl:
       "https://i.postimg.cc/3JT4zH0R/Screenshot-2025-09-29-153006.png",
@@ -184,7 +184,7 @@ const slides: Slide[] = [
     title: "Complaints",
     description:
       "Have an issue? Submit a complaint directly to our admin team for quick resolution.",
-    icon: <AlertTriangle className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <AlertTriangle className="w-12 h-12" />,
     gradient: "from-amber-500 to-orange-600",
     imageUrl:
       "https://i.postimg.cc/Prjp0kvN/Screenshot-2025-09-29-153100.png",
@@ -195,7 +195,7 @@ const slides: Slide[] = [
     title: "Telegram Chat",
     description:
       "Join the student community on Telegram to discuss topics, share knowledge, and stay connected.",
-    icon: <Send className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <Send className="w-12 h-12" />,
     gradient: "from-sky-500 to-blue-600",
   },
   {
@@ -204,7 +204,7 @@ const slides: Slide[] = [
     title: "About Us",
     description:
       "Learn about our mission to simplify learning and the passionate team behind Topper's Toolkit.",
-    icon: <Users className="w-10 h-10 md:w-12 md:h-12" />,
+    icon: <Users className="w-12 h-12" />,
     gradient: "from-emerald-500 to-teal-600",
     imageUrl:
       "https://i.postimg.cc/yYHg2z3g/Screenshot-2025-09-29-153218.png",
@@ -255,13 +255,13 @@ export function Presentation() {
       case "title":
         return (
           <motion.div
-            className="flex flex-col items-center justify-center h-full text-white text-center px-4 sm:px-8"
+            className="flex flex-col items-center justify-center h-full text-white text-center px-8"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
             <motion.h1
-              className="text-4xl sm:text-5xl mb-4 tracking-tight"
+              className="text-5xl mb-4 tracking-tight"
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               transition={{ delay: 0.2, duration: 0.6 }}
@@ -269,7 +269,7 @@ export function Presentation() {
               {slide.title}
             </motion.h1>
             <motion.p
-              className="text-lg sm:text-xl opacity-90"
+              className="text-xl opacity-90"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.6 }}
@@ -288,13 +288,13 @@ export function Presentation() {
       case "welcome":
         return (
           <motion.div
-            className="flex flex-col items-center justify-center h-full text-white text-center px-4 sm:px-8"
+            className="flex flex-col items-center justify-center h-full text-white text-center px-8"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
             <motion.div
-              className="mb-4 sm:mb-6 p-4 sm:p-6 bg-white/20 rounded-full"
+              className="mb-6 p-6 bg-white/20 rounded-full"
               initial={{ scale: 0, rotate: -180 }}
               animate={{ scale: 1, rotate: 0 }}
               transition={{
@@ -306,7 +306,7 @@ export function Presentation() {
               {slide.icon}
             </motion.div>
             <motion.h1
-              className="text-3xl sm:text-4xl mb-2 tracking-tight"
+              className="text-4xl mb-2 tracking-tight"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
@@ -314,7 +314,7 @@ export function Presentation() {
               {slide.title}
             </motion.h1>
             <motion.h2
-              className="text-2xl sm:text-3xl mb-4 tracking-tight"
+              className="text-3xl mb-4 tracking-tight"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
@@ -322,7 +322,7 @@ export function Presentation() {
               {slide.subtitle}
             </motion.h2>
             <motion.p
-              className="text-base sm:text-lg opacity-90 leading-relaxed max-w-sm"
+              className="text-lg opacity-90 leading-relaxed max-w-sm"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.6 }}
@@ -362,13 +362,13 @@ export function Presentation() {
           >
             {/* Top Section - Feature Info */}
             <motion.div
-              className="flex-1 flex flex-col items-center justify-center text-center py-2 sm:py-4"
+              className="flex-1 flex flex-col items-center justify-center text-center py-4"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.6 }}
             >
               <motion.div
-                className="mb-2 sm:mb-3 p-2 sm:p-3 bg-white/20 rounded-full"
+                className="mb-3 p-3 bg-white/20 rounded-full"
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{
@@ -380,7 +380,7 @@ export function Presentation() {
                 {slide.icon}
               </motion.div>
               <motion.h2
-                className="text-2xl sm:text-3xl mb-1 sm:mb-2"
+                className="text-3xl mb-2"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.6 }}
@@ -388,7 +388,7 @@ export function Presentation() {
                 {slide.title}
               </motion.h2>
               <motion.p
-                className="text-xs sm:text-sm opacity-90 leading-relaxed px-2"
+                className="text-sm opacity-90 leading-relaxed px-2"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.6 }}
@@ -404,19 +404,20 @@ export function Presentation() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.6 }}
             >
-              <div className="w-full max-w-[180px] sm:max-w-xs mx-auto">
+              {/* === CHANGED THIS LINE === */}
+              <div className="w-[85%] mx-auto">
                 {/* Phone Frame for Screenshot */}
-                <div className="relative bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-2 sm:p-3 border border-white/20">
-                  <div className="bg-white/5 rounded-lg sm:rounded-xl aspect-[9/16] flex flex-col items-center justify-center relative overflow-hidden">
+                <div className="relative bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/20">
+                  <div className="bg-white/5 rounded-xl aspect-[9/16] flex flex-col items-center justify-center relative overflow-hidden">
                     {slide.imageUrl ? (
                       <img
                         src={slide.imageUrl}
                         alt={`${slide.title} Screenshot`}
-                        className="absolute inset-0 w-full h-full object-cover rounded-lg sm:rounded-xl"
+                        className="absolute inset-0 w-full h-full object-cover rounded-xl"
                       />
                     ) : (
                       <div className="text-white/60 text-center px-4">
-                        <div className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-2 rounded-lg bg-white/20 flex items-center justify-center">
+                        <div className="w-8 h-8 mx-auto mb-2 rounded-lg bg-white/20 flex items-center justify-center">
                           📱
                         </div>
                         <p className="text-xs">
@@ -429,7 +430,7 @@ export function Presentation() {
                     )}
                   </div>
                   {/* Phone notch simulation */}
-                  <div className="absolute top-2 sm:top-4 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 h-1 bg-white/20 rounded-full"></div>
+                  <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-white/20 rounded-full"></div>
                 </div>
               </div>
             </motion.div>
@@ -439,13 +440,13 @@ export function Presentation() {
       case "feature-no-screenshot":
         return (
           <motion.div
-            className="flex flex-col items-center justify-center h-full text-white text-center px-4 sm:px-8"
+            className="flex flex-col items-center justify-center h-full text-white text-center px-8"
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
             <motion.div
-              className="mb-4 sm:mb-6 p-3 sm:p-4 bg-white/20 rounded-full"
+              className="mb-6 p-4 bg-white/20 rounded-full"
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{
@@ -457,7 +458,7 @@ export function Presentation() {
               {slide.icon}
             </motion.div>
             <motion.h2
-              className="text-3xl sm:text-4xl mb-4"
+              className="text-4xl mb-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.6 }}
@@ -465,7 +466,7 @@ export function Presentation() {
               {slide.title}
             </motion.h2>
             <motion.p
-              className="text-base sm:text-lg opacity-90 leading-relaxed"
+              className="text-lg opacity-90 leading-relaxed"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
@@ -478,13 +479,13 @@ export function Presentation() {
       case "social":
         return (
           <motion.div
-            className="flex flex-col items-center justify-center h-full text-white text-center px-4 sm:px-8"
+            className="flex flex-col items-center justify-center h-full text-white text-center px-8"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
           >
             <motion.h2
-              className="text-3xl sm:text-4xl mb-6 sm:mb-8"
+              className="text-4xl mb-8"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.6 }}
@@ -492,40 +493,40 @@ export function Presentation() {
               {slide.title}
             </motion.h2>
             <motion.div
-              className="grid grid-cols-2 gap-4 sm:gap-6 w-full max-w-xs"
+              className="grid grid-cols-2 gap-6 w-full max-w-xs"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.6 }}
             >
               {[
                 {
-                  icon: <Youtube className="w-6 h-6 sm:w-8 sm:h-8" />,
+                  icon: <Youtube className="w-8 h-8" />,
                   label: "YouTube",
                 },
                 {
-                  icon: <MessageCircle className="w-6 h-6 sm:w-8 sm:h-8" />,
+                  icon: <MessageCircle className="w-8 h-8" />,
                   label: "WhatsApp",
                 },
                 {
-                  icon: <Instagram className="w-6 h-6 sm:w-8 sm:h-8" />,
+                  icon: <Instagram className="w-8 h-8" />,
                   label: "Instagram",
                 },
                 {
-                  icon: <Send className="w-6 h-6 sm:w-8 sm:h-8" />,
+                  icon: <Send className="w-8 h-8" />,
                   label: "Telegram",
                 },
                 {
-                  icon: <Mail className="w-6 h-6 sm:w-8 sm:h-8" />,
+                  icon: <Mail className="w-8 h-8" />,
                   label: "Email",
                 },
                 {
-                  icon: <Search className="w-6 h-6 sm:w-8 sm:h-8" />,
+                  icon: <Search className="w-8 h-8" />,
                   label: "Google",
                 },
               ].map((social, index) => (
                 <motion.div
                   key={index}
-                  className="flex flex-col items-center p-3 sm:p-4 bg-white/20 rounded-lg"
+                  className="flex flex-col items-center p-4 bg-white/20 rounded-lg"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{
@@ -535,7 +536,7 @@ export function Presentation() {
                   whileHover={{ scale: 1.05 }}
                 >
                   {social.icon}
-                  <span className="mt-2 text-xs sm:text-sm">
+                  <span className="mt-2 text-sm">
                     {social.label}
                   </span>
                 </motion.div>
@@ -554,44 +555,45 @@ export function Presentation() {
           >
             {/* Header */}
             <motion.div
-              className="text-center py-4 sm:py-6"
+              className="text-center py-6"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.6 }}
             >
-              <h2 className="text-2xl sm:text-3xl mb-2">{slide.title}</h2>
-              <p className="text-base sm:text-lg opacity-80">
+              <h2 className="text-3xl mb-2">{slide.title}</h2>
+              <p className="text-lg opacity-80">
                 {slide.subtitle}
               </p>
             </motion.div>
 
             {/* Large Screenshot Area */}
             <motion.div
-              className="flex-1 flex items-center justify-center px-4 sm:px-6 pb-4 sm:pb-6"
+              className="flex-1 flex items-center justify-center px-6 pb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
             >
-              <div className="w-full max-w-[200px] sm:max-w-sm">
+              {/* === CHANGED THIS LINE === */}
+              <div className="w-[85%]">
                 {/* Phone Frame */}
-                <div className="relative bg-white/10 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-2 sm:p-4 border border-white/20 shadow-2xl">
-                  <div className="bg-white/5 rounded-xl sm:rounded-2xl aspect-[9/16] flex flex-col items-center justify-center relative overflow-hidden">
+                <div className="relative bg-white/10 backdrop-blur-sm rounded-3xl p-4 border border-white/20 shadow-2xl">
+                  <div className="bg-white/5 rounded-2xl aspect-[9/16] flex flex-col items-center justify-center relative overflow-hidden">
                     {slide.imageUrl ? (
                       <img
                         src={slide.imageUrl}
                         alt={`${slide.title} Screenshot`}
-                        className="absolute inset-0 w-full h-full object-cover rounded-xl sm:rounded-2xl"
+                        className="absolute inset-0 w-full h-full object-cover rounded-2xl"
                       />
                     ) : (
                       <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-white/5 flex items-center justify-center">
                         <div className="text-white/60 text-center px-6 z-10">
-                          <div className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-4 rounded-2xl bg-white/20 flex items-center justify-center text-xl sm:text-2xl">
+                          <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-white/20 flex items-center justify-center text-2xl">
                             📱
                           </div>
-                          <p className="text-base sm:text-lg mb-2">
+                          <p className="text-lg mb-2">
                             App Screenshot
                           </p>
-                          <p className="text-xs sm:text-sm opacity-60">
+                          <p className="text-sm opacity-60">
                             Place your full app interface here
                           </p>
                         </div>
@@ -599,8 +601,8 @@ export function Presentation() {
                     )}
                   </div>
                   {/* Phone details */}
-                  <div className="absolute top-3 sm:top-5 left-1/2 transform -translate-x-1/2 w-20 sm:w-24 h-1 sm:h-1.5 bg-white/20 rounded-full"></div>
-                  <div className="absolute bottom-3 sm:bottom-5 left-1/2 transform -translate-x-1/2 w-24 sm:w-32 h-1 bg-white/20 rounded-full"></div>
+                  <div className="absolute top-5 left-1/2 transform -translate-x-1/2 w-24 h-1.5 bg-white/20 rounded-full"></div>
+                  <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-white/20 rounded-full"></div>
                 </div>
               </div>
             </motion.div>
@@ -610,13 +612,13 @@ export function Presentation() {
       case "cta":
         return (
           <motion.div
-            className="flex flex-col items-center justify-center h-full text-white text-center px-4 sm:px-8"
+            className="flex flex-col items-center justify-center h-full text-white text-center px-8"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
             <motion.h2
-              className="text-4xl sm:text-5xl mb-4"
+              className="text-5xl mb-4"
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               transition={{
@@ -628,7 +630,7 @@ export function Presentation() {
               {slide.title}
             </motion.h2>
             <motion.p
-              className="text-lg sm:text-xl mb-8 opacity-90"
+              className="text-xl mb-8 opacity-90"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.6 }}
@@ -636,7 +638,7 @@ export function Presentation() {
               {slide.subtitle}
             </motion.p>
             <motion.button
-              className="bg-white text-blue-600 px-6 py-3 sm:px-8 sm:py-4 rounded-full text-lg sm:text-xl transition-all duration-300 hover:bg-blue-50 hover:scale-105"
+              className="bg-white text-blue-600 px-8 py-4 rounded-full text-xl transition-all duration-300 hover:bg-blue-50 hover:scale-105"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.6 }}
@@ -654,14 +656,15 @@ export function Presentation() {
   };
 
   return (
-    <div className="bg-black rounded-lg overflow-hidden shadow-2xl  overflow-hidden m-1">
+    // Remember to remove `h-full` from this div if it's there
+    <div className="bg-black rounded-lg overflow-hidden shadow-2xl">
       <div className="h-full relative bg-gradient-to-br aspect-[9/16] overflow-hidden">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentSlide}
             className={`absolute inset-0 bg-gradient-to-br ${currentSlideData.gradient}`}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}  
+            animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
           >
@@ -670,17 +673,17 @@ export function Presentation() {
         </AnimatePresence>
 
         {/* Navigation Controls */}
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center space-x-4 z-10  overflow-hidden">
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center space-x-4 z-10">
           <button
             onClick={prevSlide}
-            className="p-2 bg-black/20 text-white rounded-full hover:bg-black/40 transition-colors overflow-hidden"
+            className="p-2 bg-black/20 text-white rounded-full hover:bg-black/40 transition-colors"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
 
           <button
             onClick={nextSlide}
-            className="p-2 bg-black/20 text-white rounded-full hover:bg-black/40 transition-colors overflow-hidden"
+            className="p-2 bg-black/20 text-white rounded-full hover:bg-black/40 transition-colors"
           >
             <ChevronRight className="w-5 h-5" />
           </button>
