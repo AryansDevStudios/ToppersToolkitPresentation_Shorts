@@ -28,13 +28,13 @@ import {
 interface Slide {
   id: number;
   type:
-    | "title"
-    | "feature"
-    | "social"
-    | "cta"
-    | "screenshot"
-    | "welcome"
-    | "feature-no-screenshot";
+  | "title"
+  | "feature"
+  | "social"
+  | "cta"
+  | "screenshot"
+  | "welcome"
+  | "feature-no-screenshot";
   title: string;
   subtitle?: string;
   description?: string;
@@ -654,14 +654,14 @@ export function Presentation() {
   };
 
   return (
-    <div className="h-full bg-black rounded-lg overflow-hidden shadow-2xl">
+    <div className="bg-black rounded-lg overflow-hidden shadow-2xl  overflow-hidden m-1">
       <div className="h-full relative bg-gradient-to-br aspect-[9/16] overflow-hidden">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentSlide}
             className={`absolute inset-0 bg-gradient-to-br ${currentSlideData.gradient}`}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            animate={{ opacity: 1 }}  
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
           >
@@ -670,17 +670,17 @@ export function Presentation() {
         </AnimatePresence>
 
         {/* Navigation Controls */}
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center space-x-4 z-10">
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center space-x-4 z-10  overflow-hidden">
           <button
             onClick={prevSlide}
-            className="p-2 bg-black/20 text-white rounded-full hover:bg-black/40 transition-colors"
+            className="p-2 bg-black/20 text-white rounded-full hover:bg-black/40 transition-colors overflow-hidden"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
 
           <button
             onClick={nextSlide}
-            className="p-2 bg-black/20 text-white rounded-full hover:bg-black/40 transition-colors"
+            className="p-2 bg-black/20 text-white rounded-full hover:bg-black/40 transition-colors overflow-hidden"
           >
             <ChevronRight className="w-5 h-5" />
           </button>
